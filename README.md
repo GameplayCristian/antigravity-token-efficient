@@ -59,7 +59,7 @@ config.json, and launches attacks via ataque.py.
 
 #### Option 2: Manual
 
-Copy the contents of [`GEMINI.md`](GEMINI.md) to:
+Copy the contents of [`GEMINI_EN.md`](GEMINI_EN.md) to:
 
 ```
 C:\Users\<YourUsername>\.gemini\GEMINI.md
@@ -154,7 +154,7 @@ config.json, y lanza ataques via ataque.py.
 
 #### Opción 2: Manual
 
-Copiá el contenido de [`GEMINI.md`](GEMINI.md) a:
+Copiá el contenido de [`GEMINI_ES.md`](GEMINI_ES.md) a:
 
 ```
 C:\Users\<TuUsuario>\.gemini\GEMINI.md
@@ -198,7 +198,8 @@ Borrá `C:\Users\<TuUsuario>\.gemini\GEMINI.md` o vaciá su contenido.
 
 | File / Archivo | Description / Descripción |
 |---|---|
-| `GEMINI.md` | Rules file (reference) / Archivo de reglas (referencia) |
+| `GEMINI_EN.md` | Rules file in English / Archivo de reglas en inglés |
+| `GEMINI_ES.md` | Rules file in Spanish / Archivo de reglas en español |
 | `install_rules_EN.bat` | One-click installer (English) / Instalador (inglés) |
 | `install_rules_ES.bat` | One-click installer (Spanish) / Instalador (español) |
 
