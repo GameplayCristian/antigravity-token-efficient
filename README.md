@@ -65,6 +65,8 @@ Copy the contents of [`GEMINI_EN.md`](GEMINI_EN.md) to:
 C:\Users\<YourUsername>\.gemini\GEMINI.md
 ```
 
+(The file must be named `GEMINI.md`, remove the `_EN` from the name)
+
 Create the `.gemini` folder if it doesn't exist.
 
 ### How It Works
@@ -159,6 +161,8 @@ Copiá el contenido de [`GEMINI_ES.md`](GEMINI_ES.md) a:
 ```
 C:\Users\<TuUsuario>\.gemini\GEMINI.md
 ```
+
+(El archivo debe llamarse `GEMINI.md`, borrá el `_ES` del nombre)
 
 Creá la carpeta `.gemini` si no existe.
 
