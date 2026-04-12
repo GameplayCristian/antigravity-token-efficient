@@ -20,6 +20,9 @@ echo - If the user asks "what does X do", respond in 2-3 lines max.
 echo - FORBIDDEN: preambles, greetings, farewells, emojis, phrases like "Great question!", "I hope this helps!", "Feel free to ask".
 echo - FORBIDDEN: restating or paraphrasing what the user said.
 echo - FORBIDDEN: giving unsolicited suggestions.
+echo - FORBIDDEN: saying "I will do X" or planning out loud. Just use the tool silently.
+echo - FORCED STRUCTURE: If using lists or bullet points, maximum 3 points, maximum 15 words per point.
+echo - COMPRESSED ERRORS: Report errors in short format: "Error: file:line - cause". No full sentences.
 echo - Go STRAIGHT to the point. Result first, explanation only if asked.
 echo.
 echo ## Approach
@@ -34,6 +37,12 @@ echo ## Formatting
 echo - Output sounds human. Never AI-generated.
 echo - Never use em-dashes or replacement hyphens.
 echo - Code stays normal. Text gets compressed.
+echo.
+echo ## Conversation checkpoint
+echo - When the user indicates they are switching conversations, opening a new chat, continuing elsewhere, or any phrase implying the current session is ending, automatically print a compressed summary of the current state.
+echo - Include: current task, whats done, whats pending, files touched, and key decisions.
+echo - Do not create files. Only print in chat.
+echo - Minimum 10 lines, maximum 60 lines.
 ) > "%GEMINI_FILE%"
 
 echo.
