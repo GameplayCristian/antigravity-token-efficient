@@ -81,6 +81,15 @@ Antigravity reads `GEMINI.md` from `~/.gemini/` at the start of every conversati
 
 Works with all models available in Antigravity (Gemini, Claude, etc.).
 
+### V2 Features
+
+| Feature | What it does | Token savings |
+|---|---|---|
+| Silent execution | No "I will do X" before acting. Just does it. | ~20% per action |
+| Forced structure | Lists capped at 3 points, 15 words each | ~40% on explanations |
+| Compressed errors | `Error: file:line - cause` instead of paragraphs | ~60% on error reports |
+| Conversation checkpoint | Auto-prints context summary when switching chats | Saves entire re-explanation |
+
 ### When This Helps vs When It Doesn't
 
 **Works best for:**
@@ -177,6 +186,15 @@ Antigravity lee `GEMINI.md` desde `~/.gemini/` al inicio de cada conversación. 
 - Ir directo al resultado
 
 Funciona con todos los modelos disponibles en Antigravity (Gemini, Claude, etc.).
+
+### Funcionalidades V2
+
+| Funcionalidad | Qué hace | Ahorro de tokens |
+|---|---|---|
+| Ejecución silenciosa | No dice "voy a hacer X" antes de actuar. Simplemente lo hace. | ~20% por acción |
+| Estructura forzada | Listas limitadas a 3 puntos, 15 palabras cada uno | ~40% en explicaciones |
+| Errores comprimidos | `Error: archivo:linea - causa` en vez de párrafos | ~60% en reportes de error |
+| Checkpoint de conversación | Imprime resumen del contexto al cambiar de chat | Ahorra toda la re-explicación |
 
 ### Cuándo Sirve y Cuándo No
 
